@@ -1,0 +1,2 @@
+# MST-LAB
+static pages
