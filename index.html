@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login - SRKR College</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-form">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVEC8S6e2nN5PTkwkYiaI6p-QgX47LnX3zBA&s" alt="SRKR College Logo" class="logo" />
+      <h2>Welcome to SRKR College</h2>
+      <p>Please login to access your dashboard.</p>
+      <input type="text" placeholder="Enter Registration Number" />
+      <input type="password" placeholder="Enter Password" />
+      <button type="submit" onclick="redirectToDashboard()">Login</button>
+      <div class="links">
+        <a href="#">Forgot Password?</a>
+        <a href="#">Reset Password</a>
+      </div>
+    </div>
+    <div class="login-links">
+      <h3 style="color:#6c5ce7;">Quick Links:-</h3>
+            <a href="#">New Admission</a>
+      <a href="#">Apply </a>
+      <a href="#">Login</a>
+    </div>
+  </div>
+
+  <script>
+    function redirectToDashboard() {
+      window.location.href = 'dashboard.html';
+    }
+  </script>
+</body>
+</html>
